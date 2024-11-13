@@ -1,7 +1,7 @@
 services:
   s7-exporter:
     build:
-      context: ./source
+      context: .
       dockerfile: Dockerfile
     container_name: s7-plc-exporter
     ports:
