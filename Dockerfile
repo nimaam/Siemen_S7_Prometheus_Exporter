@@ -8,6 +8,8 @@ WORKDIR /app
 
 # Copy application code
 COPY ./exporter.py /app/
+COPY ./targets.yaml /app/
+
 # Expose Prometheus metrics port
 EXPOSE 9712
 
