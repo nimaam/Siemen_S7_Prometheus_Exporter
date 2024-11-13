@@ -7,7 +7,7 @@ RUN pip3 install --no-cache-dir python-snap7 prometheus_client pyyaml
 WORKDIR /app
 
 # Copy application code
-COPY . /app
+COPY ./exporter.py /app/
 # Expose Prometheus metrics port
 EXPOSE 9712
 
