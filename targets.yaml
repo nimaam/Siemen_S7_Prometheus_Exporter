@@ -1,0 +1,168 @@
+- cycle-runtime: 50ms
+  db:
+  - metrics:
+    - help: ActPress value from PLC
+      name: ActPress
+      offset: 1300
+      type: int
+    - help: TimeHour value from PLC
+      name: TimeHour
+      offset: 1294
+      type: int
+    - help: TimeSecond value from PLC
+      name: TimeSecond
+      offset: 1298
+      type: int
+    - help: TimeMinute value from PLC
+      name: TimeMinute
+      offset: 1296
+      type: int
+    - help: SizeLineA value from PLC
+      name: SizeLineA
+      offset: 1302
+      type: int
+    - help: CircLineA value from PLC
+      name: CircLineA
+      offset: 1304
+      type: int
+    - help: XvaluesLineA value from PLC
+      name: XvaluesLineA
+      offset: 1306
+      type: int
+    - help: YvaluesLineA value from PLC
+      name: YvaluesLineA
+      offset: 1308
+      type: int
+    - help: InRangeValuesLineA value from PLC
+      name: InRangeValuesLineA
+      offset: 1310
+      type: int
+    - help: OutRangeValuesLineA value from PLC
+      name: OutRangeValuesLineA
+      offset: 1312
+      type: int
+    - help: IndicationLineA value from PLC
+      name: IndicationLineA
+      offset: 1314
+      type: int
+    - help: SizeLineB value from PLC
+      name: SizeLineB
+      offset: 1316
+      type: int
+    - help: CircLineB value from PLC
+      name: CircLineB
+      offset: 1318
+      type: int
+    - help: XvaluesLineB value from PLC
+      name: XvaluesLineB
+      offset: 1320
+      type: int
+    - help: YvaluesLineB value from PLC
+      name: YvaluesLineB
+      offset: 1322
+      type: int
+    - help: InRangeValuesLineB value from PLC
+      name: InRangeValuesLineB
+      offset: 1324
+      type: int
+    - help: OutRangeValuesLineB value from PLC
+      name: OutRangeValuesLineB
+      offset: 1326
+      type: int
+    - help: IndicationLineB value from PLC
+      name: IndicationLineB
+      offset: 1328
+      type: int
+    - help: SizeLineC value from PLC
+      name: SizeLineC
+      offset: 1330
+      type: int
+    - help: CircLineC value from PLC
+      name: CircLineC
+      offset: 1332
+      type: int
+    - help: XvaluesLineC value from PLC
+      name: XvaluesLineC
+      offset: 1334
+      type: int
+    - help: YvaluesLineC value from PLC
+      name: YvaluesLineC
+      offset: 1336
+      type: int
+    - help: InRangeValuesLineC value from PLC
+      name: InRangeValuesLineC
+      offset: 1338
+      type: int
+    - help: OutRangeValuesLineC value from PLC
+      name: OutRangeValuesLineC
+      offset: 1340
+      type: int
+    - help: IndicationLineC value from PLC
+      name: IndicationLineC
+      offset: 1342
+      type: int
+    - help: SizeLineD value from PLC
+      name: SizeLineD
+      offset: 1344
+      type: int
+    - help: CircLineD value from PLC
+      name: CircLineD
+      offset: 1346
+      type: int
+    - help: XvaluesLineD value from PLC
+      name: XvaluesLineD
+      offset: 1348
+      type: int
+    - help: YvaluesLineD value from PLC
+      name: YvaluesLineD
+      offset: 1350
+      type: int
+    - help: InRangeValuesLineD value from PLC
+      name: InRangeValuesLineD
+      offset: 1352
+      type: int
+    - help: OutRangeValuesLineD value from PLC
+      name: OutRangeValuesLineD
+      offset: 1354
+      type: int
+    - help: IndicationLineD value from PLC
+      name: IndicationLineD
+      offset: 1356
+      type: int
+    - help: Recepi value from PLC
+      name: Recepi
+      offset: 1038
+      type: string
+    - help: makeNewFile value from PLC
+      name: makeNewFile
+      offset: 1372.0
+      type: bool
+    - help: addDataToFile value from PLC
+      name: addDataToFile
+      offset: 1372.1
+      type: bool
+    - help: fileCreated value from PLC
+      name: fileCreated
+      offset: 1372.2
+      type: bool
+    - help: DateYear value from PLC
+      name: DateYear
+      offset: 1374
+      type: int
+    - help: DateMonth value from PLC
+      name: DateMonth
+      offset: 1376
+      type: int
+    - help: DateDay value from PLC
+      name: DateDay
+      offset: 1378
+      type: int
+    number: 19
+    size: 2000
+    start: 0
+  ip: 10.152.0.11
+  label: S7_PLC_1
+  port: 102
+  rack: 0
+  slot: 1
+  timeout: 2000ms
