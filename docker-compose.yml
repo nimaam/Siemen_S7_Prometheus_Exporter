@@ -1,0 +1,11 @@
+services:
+  s7-exporter:
+    build:
+      context: ./source
+      dockerfile: Dockerfile
+    container_name: s7-plc-exporter
+    ports:
+      - "9712:9712"  # Prometheus scraping endpoint
+    restart: always
+    command: python3 exporter.py
+    #command: sleep 1000
